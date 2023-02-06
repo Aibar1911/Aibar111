@@ -11,6 +11,8 @@
 		4328028E2990FAC900653143 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4328028D2990FAC900653143 /* ContentView.swift */; };
 		432802902990FACB00653143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4328028F2990FACB00653143 /* Assets.xcassets */; };
 		432802932990FACB00653143 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432802922990FACB00653143 /* Preview Assets.xcassets */; };
+		432802B429910C1F00653143 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432802B329910C1F00653143 /* models.swift */; };
+		432802B6299115A200653143 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432802B5299115A200653143 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4328028D2990FAC900653143 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4328028F2990FACB00653143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		432802922990FACB00653143 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		432802B329910C1F00653143 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		432802B5299115A200653143 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				4328028D2990FAC900653143 /* ContentView.swift */,
 				4328028F2990FACB00653143 /* Assets.xcassets */,
 				432802912990FACB00653143 /* Preview Content */,
+				432802B329910C1F00653143 /* models.swift */,
+				432802B5299115A200653143 /* ViewModel.swift */,
 			);
 			path = Aibar100;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4328028E2990FAC900653143 /* ContentView.swift in Sources */,
+				432802B429910C1F00653143 /* models.swift in Sources */,
+				432802B6299115A200653143 /* ViewModel.swift in Sources */,
 				4328028C2990FAC900653143 /* Aibar100App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +292,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +321,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
